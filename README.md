@@ -1,15 +1,6 @@
 ## **Oefeningen: In memory web API & Routing**
 ### Oefening 1
-Kopieer de overwatch oefening naar deze repository.
-
-Pas de  oefening aan. De bedoeling is dat de data niet langer uit de firebase backend komt, maar dat je een mock service gebruikt die de HTTP calls zal opvangen. Hiervoor maak je gebruik van de in memory web API uit hoofdstuk 8b.
-
-Voorzie een delay van 2000ms om te kijken hoe je applicatie omgaat met wachttijden. Kan je ergens optimaliseren met bv laad-icoontjes?
-
-Controleer na het maken van deze oefening of je alle wijzigingen naar github hebt gepusht.
-
-### Oefening 2
-Voorzie een nieuwe Angular applicatie met de naam ch9-oefening2 in de root directory van deze repository met 3 components. In de app.component.html voorzie je 3 hyperlinks: Home, Info, getallen. En een inputbox waarin de waarde via 2way binding gekoppeld wordt aan een variabele “getal”.
+Voorzie een nieuwe Angular applicatie met de naam ch9-oefening1 in de root directory van deze repository met 3 components. In de app.component.html voorzie je 3 hyperlinks: Home, Info, getallen. En een inputbox waarin de waarde via 2way binding gekoppeld wordt aan een variabele “getal”.
 
 Voorzie volgende routes & functionaliteit:
 *   De Home component bevat tekst (lorem ipsum) en wordt getoond onder de navigatie bij het laden van de url /home. Daarnaast wordt de base url ([http://localhost:4200/](http://localhost:4200/)) doorverwezen naar deze component
@@ -18,8 +9,8 @@ Voorzie volgende routes & functionaliteit:
 
 Controleer na het maken van deze oefening of je alle wijzigingen naar github hebt gepusht.
 
-### Oefening 3
-Maak een nieuw angular project met als naam h9-oefening3 in de root directory van deze repository.
+### Oefening 2
+Maak een nieuw angular project met als naam h9-oefening2 in de root directory van deze repository.
 
 **De routing van deze oefening voorzie je in een aparte routing module! **Voorzie een angular applicatie met onderstaande functionaliteit. Een service met een array van Events (id, titel, datum, adres) en de methodes getEvents(), getEvent(id), addEvent(event), removeEvent(id).
 
@@ -31,7 +22,7 @@ Maak een nieuw angular project met als naam h9-oefening3 in de root directory va
 
 Controleer na het maken van deze oefening of je alle wijzigingen naar github hebt gepusht.
 
-### Oefening 4
+### Oefening 3
 
 Ga naar de map H9-oefening-debug. Vervolgens run je onderstaand commando in deze map op alle dependencies te installeren:
 
